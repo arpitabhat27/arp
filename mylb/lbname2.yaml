@@ -12,7 +12,4 @@ parameters:
     description: "Name of the Load Balanced application"
     type: string
     key: true
-    gui:
-     updatable: false
     required: true
-    
