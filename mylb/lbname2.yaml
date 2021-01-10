@@ -1,7 +1,7 @@
 --- 
 name: lbname2
 namespace: com.citrix.adc.commontypes
-version: "2.0"
+version: "1.0"
 private: true
 schema-version: "1.0"
 
@@ -12,4 +12,6 @@ parameters:
     description: "Name of the Load Balanced application"
     type: string
     key: true
+    gui:
+     updatable: false
     required: true
